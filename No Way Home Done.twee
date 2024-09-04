@@ -1,0 +1,270 @@
+:: StoryTitle
+No Way Home
+
+
+:: StoryData
+{
+  "ifid": "989DACC4-B12F-4841-9030-C5FB21C8B31F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Unavngiven passage",
+  "zoom": 1
+}
+
+
+:: Ask around for assistance {"position":"800,850","size":"100,100"}
+You walk around to the other guests that looks "Friendlier", you get a lot of support from the other guests, "//This is not a place where you steal, and especially not from a lil' old lady!//" one of the guests says. 
+
+You gather a big group of menecing looking people, and all move towards the thugs once again.
+
+"(text-colour:red)[//DIDN'T I TELL YOU TO FUCK O-//]" one of the thugs says before he looks up, as he looks up and sees the huge angry group.
+
+*Gulp* 
+
+"(text-colour:red)[//We were just about to leave actually, this is a shithole anyways!!//]"
+
+"//You better! And don't even think about leaving with that bag of coins!//" one of the guests says.
+
+The thugs hurries out the door, and everyone goes back to doing their thing.
+
+The old lady takes her coin pouch and thanks you many many times!
+
+You see the old lady giving a round to all the guests, the atmosphere is great!
+
+You drink your pint, and get ready to [[Walk ahead]]
+
+(set: $Karma to $Karma + 20)
+
+
+
+:: Attack the weak goblins {"position":"100,600","size":"100,100"}
+(set: $Karma to $Karma - 20)
+You draw your sword, the goblins look scared, "(text-colour:orange)[//Whait weh ju-//]" You chop one of their heads off in one swoop, the other is horrified, it tries to run, but you quickly pick up the spear of the fallen goblin, and throws it. *Swoosh*, It goes directly through the small goblins back. 
+
+Now your path is clear, better hurry and get out of here! 
+
+As you sneak through the goblin camp trying not to be noticed, all the other goblins are on the hunt for whatever monster killed //Guh// and //Urh//. A goup of goblins notice you hiding in a valley, what do you do?
+
+* [[Try and lie your way out of it, goblins are stupid after all]]
+* [[Come clean, face the consequences of your actions]]
+
+
+:: Come clean, face the consequences of your actions {"position":"200,725","size":"100,100"}
+You see no use in hiding and lying anymore, you explain you killed the two goblins, the goblins are mad at you, but it does not look like they are about to attack, maybe they are scarred of you.
+
+"(text-colour:orange)[//LEAVE and NEVER come back!!//]" one of the goblins says, they let you go, if looks could kill, would would have died a couple of times. 
+
+You make it though the camp.
+
+[[Walk ahead]]
+
+
+:: Continue ahead, you're busy! {"position":"800,1125","size":"100,100"}
+This is clearly not your problem! You have an important quest to complete! 
+
+You ignore the merchant trying to wave at you for some help, you do feel a little bad about it, maybe you were not in such a rush?
+
+[[Keep going]]
+
+
+:: Draw your sword and attack before they do!! {"position":"1000,725","size":"100,100"}
+You draw your sword, and before the thugs can react, you've already stabbed one of them in the chest. "(text-colour:red)[//ILL KILL YOU//]" the other thug says.
+
+A brawl breaks out, now everyone is fighting! 
+
+The thug slices your cheek, you can feel some pain, in anger you manage to throw a beer in the thugs face, and while he is trying to get the beer out of his eyes, you cut his throat, on a matter of seconds the other thug is also dead.
+
+You grab the coin pouch with your bloody hands, and give it to the old lady. 
+
+"(text-colour:blue)[//Tha- thank you//]" she says quietly, she is even more shook now than before, but atleast she got her coins back!
+
+You can't help but think if you reacted too hastely, ohh well, nothing you can do now. 
+
+[[Walk ahead]]
+
+(set: $Karma to $Karma - 20))
+
+
+:: Follow the goblins {"position":"600,725","size":"100,100"}
+You follow the goblins, they look like they could really use some help!
+
+"(text-colour:orange)[//Here it is!//]" You see a barrel that has been tipped over, inside is a lot of heavy coal.
+
+"(text-colour:orange)[//Please help us but it back, for a strong person like you, it would go very fast!//]"
+
+This seems like an easy task, so you decide to help, not even 30 mintues pass before it's all cleaned up! 
+
+The goblins are gratefull for your help, they treat you to some food and drinks!
+
+[[Walk ahead]]
+
+(set: $Karma to $Karma + 20))
+
+
+:: Go and see if you can help {"position":"925,1125","size":"100,100"}
+You walk towards the merchant waving at you he seems very happy that a friendly face wants to help.
+
+"(text-colour:yellow)[//Hi young traveler, could you please help me repair my wheel, it's easy but it does require two people//]"
+
+You agree to help, and it really was easy, your job was just to hold a log in place, while the merchant mended the wheel. 
+
+"(text-colour:yellow)[//Thanks a lot, you're a good one//]" the merchant says, he treats you to some food and whine before he lets you travel along.
+
+(set: $Karma to $Karma + 20))
+
+[[Keep going]]
+
+
+:: Go talk to the thugs {"position":"900,600","size":"100,100"}
+Of course you should never leave an old lady in need!
+
+You walk towards the thugs, there is two of them, sitting at a table in the cornor, with a big pouch of coins on the table, they are not even hiding their heist. 
+
+"(text-colour:red)[//What are you looking at, do you want a beating?//]"
+
+* [[Try and talk reason with them]]
+* [[Draw your sword and attack before they do!!]]
+
+(set: $Karma to $Karma + 20))
+
+
+:: Keep going {"position":"800,1300","size":"100,100"}
+You keep walking, and after a good hour of walking.
+
+*POOF*
+
+"(text-colour:cyan)[//I'VE SEEN ENOUGH//]" An spirit appears, it's in the form of a cloud.
+
+You are a little taken aback, but you have already seen a thing or two on your travels, so this is not too shocking.
+
+(if:$Karma > 100)[//(text-colour:cyan)["YOU have shown your true self on this journey, and i am please to see you are a good person!, Therefor i now grant you the ability to taste food before you eat it, that'll help you to never eat anything bad again!"]//
+
+"(text-colour:cyan)[//Uuuhh and one of your arms gains twice its strenght! and size... Now go live your best life young adeventurer!//]"
+
+This is kinda nice! 
+
+THE END]
+
+
+
+
+(else:)["(text-colour:cyan)[//You have proven youself to have a horrible spirit, and i will therefor be punishing you, You will have one leg replaced with a cows leg, but it will weigh double!, and you will have the ability to listen in on conversation from far away, but only when people are trashing you.//]"
+
+Dayhhhhmm Maybe you should have made some better decisions you freak!
+
+THE END
+]
+
+
+
+
+:: No thanks, i will go alone. {"position":"400,725","size":"100,100"}
+You did not come here to do free labor! You are on an important mission!!
+
+You decide to leave them, they look irritated, but they do not stop you.
+
+[[Walk ahead]]
+
+
+:: Not my problem, tell her to go away {"position":"1300,600","size":"100,100"}
+You don't want to get into trouble, so you tell the old lady to leave you alone, she ends up leaving while sobbing something about that was all the money left to her by her late husband. 
+
+But thats not your problem, you enjoy the last of the pint, eat some food and then [[Walk ahead]].
+
+(set: $Karma to $Karma - 10))
+
+
+:: Peacefully talk with the goblins {"position":"500,600","size":"100,100"}
+You introduce yourself to the goblins. 
+
+"(text-colour:orange)[//Ahhh another young one seeking adulthood//]" One of them says.
+
+"(text-colour:orange)[//Please follow us, we could use a hand//]" the other says.
+
+* [[Follow the goblins]]
+* [[No thanks, i will go alone.]]
+
+
+
+
+
+
+
+:: Steal some supplies {"position":"675,1125","size":"100,100"}
+You see a chance to take some supplies from the caravan while the merchant is busy trying to repair the wheel.
+
+You manage to steal some expensive leather boots and gloves, as well as some nice whine, Score! 
+
+You do not feel any remorse, this world is survival of the fittest after all!
+
+(set: $Karma to $Karma - 30))
+
+[[Keep going]]
+
+
+:: The Goblin Camp {"position":"300,400","size":"100,100"}
+(text-colour:orange)[//WHO THERE?!//] You look down and notice two goblin guards pointing their primitive spear at you, they look weak, you could surely beat them up.
+
+You have to go through their camp to progress, the goblins are still waiting for a response, do you:
+
+* [[Attack the weak goblins]]
+
+OR
+
+* [[Peacefully talk with the goblins]]
+
+
+
+
+:: The Local Tavern {"position":"1100,400","size":"100,100"}
+You walk into a old tavern, it's not that late yet, so only the regulars are here, but it's still quite busy, this place must be popular! 
+
+You order a pint, and as you are drinking it an old woman comes up to you and asks you for help.
+
+"(text-colour:blue)[//These thugs over there just stole my pouch of coins! Can you please help me young travler?//]" She says while you can tell she is shook by the situation.
+
+* [[Go talk to the thugs]]
+* [[Not my problem, tell her to go away]]
+
+
+:: Try and lie your way out of it, goblins are stupid after all {"position":"0,725","size":"100,100"}
+(set: $Karma to $Karma - 20)
+You somehow string together an expertly told lie, (God your good), making the goblins loose their suspecions of you, you travel through the rest of the camp without an issue, the sterotypes really do fit the goblins.
+
+[[Walk ahead]]
+
+
+:: Try and talk reason with them {"position":"800,725","size":"100,100"}
+You try and explain that the thugs that they could still do the right thing. 
+
+"(text-colour:red)[//The right thing ehh? We're doing right by us//]" one of the thugs says.
+
+"(text-colour:red)[Now leave before we cut ya to fish food]" The other thug says.
+
+You can't seem to reason with the thugs, what do you do now?
+
+* [[Ask around for assistance]]
+* [[Draw your sword and attack before they do!!]]
+
+(set: $Karma to $Karma + 10))
+
+
+:: Unavngiven passage {"position":"700,200","size":"100,100"}
+Once upon a time, a land was discovered, traveling through the land would do peculiar things the the person, usually a (text-colour:yellow)[''mutation''] in a way, //mostly good//. 
+
+It has become a'' rite of passage'', a way of becoming an adult, so once you turn 18, you have to make the travel, (text-colour:grey)[''all alone''] through these lands. 
+
+It is your turn now, you have just started the travels into this land, in front of you the path splits, where do you go?
+
+* [[The Goblin Camp]]
+* [[The Local Tavern]]
+
+(set: $Karma to 100))
+
+
+:: Walk ahead {"position":"800,1000","size":"100,100"}
+As you walk ahead  you see a broken down caravan with a guy trying to repair one of the wheels.
+
+* [[Continue ahead, you're busy!]]
+* [[Go and see if you can help]]
+* [[Steal some supplies]]
